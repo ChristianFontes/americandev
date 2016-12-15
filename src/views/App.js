@@ -10,15 +10,16 @@ import AppBar from '../components/AppBar';
 import Table from '../components/Table';
 import Snabbt from '../components/snabbt';
 import Firebase from '../components/firebase';
+import Page from '../components/page';
 
-firebase.initializeApp(Firebase);
+//firebase.initializeApp(Firebase);
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <MuiThemeProvider>
-          <Snabbt />
+          <Page />
         </MuiThemeProvider>
       </div>
     );
