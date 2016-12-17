@@ -11,6 +11,7 @@ import Table from '../components/Table';
 import Snabbt from '../components/snabbt';
 import Firebase from '../components/firebase';
 import Page from '../components/page';
+import Scroll from '../components/Scroll';
 
 //firebase.initializeApp(Firebase);
 
@@ -19,7 +20,7 @@ class App extends Component {
     return (
       <div className="App">
         <MuiThemeProvider>
-          <Page />
+          <Scroll />
         </MuiThemeProvider>
       </div>
     );
