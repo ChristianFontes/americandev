@@ -18,7 +18,8 @@
     "react-dom": "^15.4.1",
     "react-snabbt": "^0.3.2",
     "react-toolbox": "^2.0.0-beta.1",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "walkway.js": "0.0.6"
   },
   "scripts": {
     "start": "react-scripts start",

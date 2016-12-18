@@ -12,17 +12,14 @@ import Snabbt from '../components/snabbt';
 import Firebase from '../components/firebase';
 import Page from '../components/page';
 import Scroll from '../components/Scroll';
+import Walkway from '../components/Walkway';
 
 //firebase.initializeApp(Firebase);
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <MuiThemeProvider>
-          <Scroll />
-        </MuiThemeProvider>
-      </div>
+      <Walkway />
     );
   }
 }
